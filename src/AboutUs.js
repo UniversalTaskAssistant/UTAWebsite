@@ -55,22 +55,20 @@ const AboutUs = () => {
     {
       id: 1,
       name: "Mulong Xie",
-      description:
-        "I'm a full-stack development, specialised in software engineering.",
+      description: "Full-stack developer, specialised in software engineering.",
       image: mulong,
     },
     {
       id: 2,
       name: "Jasmine Wang",
       description:
-        "I'm a project manager, specialised in running and managing start-ups.",
+        "Project manager, specialised in running and managing start-ups.",
       image: jasmine,
     },
     {
       id: 3,
       name: "Dustin Vu",
-      description:
-        "I'm a research engineer, specialised in creating human product.",
+      description: "Frontend Developer, specialised in creating human product.",
       image: dustin,
       link: "https://www.linkedin.com/in/vuminhduc796/",
     },
@@ -78,14 +76,13 @@ const AboutUs = () => {
       id: 4,
       name: "Dehai Zhao",
       description:
-        "I'm a Data Scientist focused on machine learning and AI solutions.",
+        "Data Scientist, focused on machine learning and AI solutions.",
       image: dehai,
     },
     {
       id: 5,
       name: "Frank Sun",
-      description:
-        "I'm a Software Engineer focused in delivering AI solutions.",
+      description: "Software Engineer, focused in delivering AI solutions.",
       image: frank,
     },
   ];
