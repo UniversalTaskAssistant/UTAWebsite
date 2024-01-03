@@ -8,6 +8,11 @@ import care from "./images/values/care.png";
 import rating from "./images/values/rating.png";
 import idea from "./images/values/idea.png";
 import csiro from "./images/csiro.png";
+import frank from "./images/avatar/frank.jpg";
+import dustin from "./images/avatar/dustin.jpg";
+import jasmine from "./images/avatar/jasmine.jpg";
+import mulong from "./images/avatar/mulong.jpg";
+import dehai from "./images/avatar/dehai.jpg";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -51,34 +56,37 @@ const AboutUs = () => {
       id: 1,
       name: "Mulong Xie",
       description:
-        "Project Manager with a knack for efficiency and time management.",
-      image: "https://via.placeholder.com/150",
+        "I'm a full-stack development, specialised in software engineering.",
+      image: mulong,
     },
     {
       id: 2,
       name: "Jasmine Wang",
-      description: "Creative Director passionate about design and innovation.",
-      image: "https://via.placeholder.com/150",
+      description:
+        "I'm a project manager, specialised in running and managing start-ups.",
+      image: jasmine,
     },
     {
       id: 3,
       name: "Dustin Vu",
-      description: "Lead Developer with expertise in full-stack development.",
-      image: "https://via.placeholder.com/150",
+      description:
+        "I'm a research engineer, specialised in creating human product.",
+      image: dustin,
+      link: "https://www.linkedin.com/in/vuminhduc796/",
     },
     {
       id: 4,
       name: "Dehai Zhao",
       description:
-        "Data Scientist focused on machine learning and AI solutions.",
-      image: "https://via.placeholder.com/150",
+        "I'm a Data Scientist focused on machine learning and AI solutions.",
+      image: dehai,
     },
     {
       id: 5,
       name: "Frank Sun",
       description:
-        "Marketing Specialist with a strong background in digital marketing.",
-      image: "https://via.placeholder.com/150",
+        "I'm a Software Engineer focused in delivering AI solutions.",
+      image: frank,
     },
   ];
 

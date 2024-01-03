@@ -29,21 +29,17 @@ const Contact = () => {
         We welcome all the inquiry or feedback, please drop your email and we
         can contact you shortly.
       </p>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="john.doe@gmail.com"
-          style={{
-            border: "1px solid #ccc" /* Light grey border */,
-            borderRadius: "16px" /* Rounded borders */,
-            padding: "10px 15px",
-            marginRight: "10px",
-          }}
-        />
-        <Button type="submit" title={"Submit"} />
-      </form>
+
+      <b style={{ marginRight: "20px" }}>
+        {" "}
+        E: MulongXie@apputa.onmicrosoft.com
+      </b>
+      <a
+        href="mailto:MulongXie@apputa.onmicrosoft.com?Subject=UTA%20Enquiry"
+        target="_top"
+      >
+        <Button type="submit" title={"Drop us an email!"} />
+      </a>
     </div>
   );
 };
