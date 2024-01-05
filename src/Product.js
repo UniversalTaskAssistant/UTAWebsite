@@ -52,7 +52,7 @@ const Product = () => {
       <span className="justify-content-between" style={sectionHeadingStyle}>
         {"Projects"}
       </span>
-      <h2>Universial Task Agent</h2>
+      <h2>Universial Task Assistant</h2>
 
       <p>
         We make technology more accessible by allowing user to input any request
