@@ -52,7 +52,7 @@ const MyNavbar = () => {
       onSelect={handleSelect}
     >
       <Navbar.Brand href="#home" style={{ color: "#9A0ECB" }}>
-        Universal Task Automation
+        Universal Task Assistant
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
