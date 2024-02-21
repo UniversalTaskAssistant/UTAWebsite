@@ -88,6 +88,21 @@ i{
     color: var(--first);
 }
 
+/* slide up */
+.slide-up {
+    /* Initial state */
+    position: relative;
+    bottom: -100px; /* Start below the view */
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.slide-up.active {
+    /* Final state */
+    bottom: 0; /* Slide to its original position */
+    opacity: 1;
+}
+
 /* divider */
 .editorial {
     display: block;
@@ -315,6 +330,7 @@ i{
 
 .sub-section{
     padding: 35px;
+    margin-top: 35px;
 }
 
 .question-img{
@@ -627,7 +643,7 @@ i{
 /* footer */
 .footer{
     width: 100%;
-    background: #23a6d5;
+    background: var(--black);
     text-align: center;
     padding: 45px;
     height: 160px;

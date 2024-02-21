@@ -44,4 +44,6 @@ $(document).ready(()=>{
         contact.text($(this).attr('data-contact-id'))
         contact.slideDown()
     })
+
+    $('.slide-up').addClass('active');
 })
