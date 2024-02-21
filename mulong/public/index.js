@@ -45,5 +45,14 @@ $(document).ready(()=>{
         contact.slideDown()
     })
 
-    $('.slide-up').addClass('active');
+    $(window).on('scroll', function(){
+        var scrollPosition = $(window).scrollTop() + $(window).height();
+        $('.slide-up').each(function() {
+            var $this = $(this);
+            if($this.offset().top + $this.outerHeight() <= scrollPosition) {
+                console.log($this.offset().top, $this.outerHeight(), scrollPosition)
+                $this.addClass('active'); // Add 'active' class to the current element
+            }
+        });
+    });
 })

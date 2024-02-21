@@ -94,7 +94,7 @@ i{
     position: relative;
     bottom: -100px; /* Start below the view */
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 .slide-up.active {
