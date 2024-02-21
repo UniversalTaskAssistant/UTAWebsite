@@ -197,6 +197,12 @@ i{
     background-color: var(--font);
 }
 
+/* slogan */
+#slogan{
+    text-align: center;
+    margin: 150px 0 250px;
+}
+
 /* content */
 #content{
     width: 100%;
