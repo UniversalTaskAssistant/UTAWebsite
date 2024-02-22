@@ -102,6 +102,22 @@ i {
   opacity: 1;
 }
 
+/* bkg */
+.bkg{
+  /* Background styles */
+  background:
+          radial-gradient(circle at bottom, white, transparent 80%),
+          linear-gradient(to top, rgb(251,198,215) 0%, transparent 70%),
+          linear-gradient(to bottom, transparent, rgba(255, 255, 255, 1) 70%),
+          white;
+  animation: bg 5s infinite;
+}
+
+@keyframes bg {
+  0%, 100% { background-color: white; } /* blue */
+  50% { background-color: rgba(251,200,100, 0.5); } /* yellow */
+}
+
 /* divider */
 .editorial {
   display: block;
@@ -289,7 +305,7 @@ i {
 /* slogan */
 #slogan {
   text-align: center;
-  margin: 150px 0 400px;
+  padding: 300px 0 300px;
 }
 
 /* content */
