@@ -24,7 +24,7 @@ $(document).ready(()=>{
         }
         // back to the top
         else{
-            nav.css({'width': '750px', 'height':'65px', 'position':'', 'background':''})
+            nav.css({'width': '600px', 'height':'65px', 'position':'', 'background':''})
             navLink.css({'color':'var(--font)', 'font-weight':'normal'})
             navLink.mouseover(function() {
                 $(this).css({'color':'var(--font)'})
