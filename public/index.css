@@ -226,7 +226,7 @@ i {
   color: var(--first);
   font-family: Exo, serif;
   height: 65px;
-  padding-top: 10px;
+  padding: 10px;
   transition: 0.5s;
   margin: 0;
 }
