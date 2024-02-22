@@ -168,10 +168,17 @@ i {
   }
 }
 
-.hover-card:hover {
+.hover-card {
   background: #ffffff70;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition: 0.5s;
+}
+
+.hover-card-hover:hover{
+  background: #ffffff70;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   transition: 0.5s;
 }
 
@@ -331,7 +338,7 @@ i {
 }
 
 .question-img {
-  width: 200px;
+  height: 150px;
   margin: 30px;
 }
 
