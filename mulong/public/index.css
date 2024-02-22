@@ -666,9 +666,3 @@ i {
 .footer i {
   margin: 5px;
 }
-
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
