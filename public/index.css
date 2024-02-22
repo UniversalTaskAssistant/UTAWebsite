@@ -213,7 +213,8 @@ i {
 }
 
 .brand-logo {
-  width: 48px;
+  max-width: 48px;
+  height: 100%;
 }
 
 .navbar-brand {
