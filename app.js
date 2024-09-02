@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html')
 })
 
+app.get('/delete-account', (req, res) =>{
+    res.sendFile((__dirname + '/public/deleteAccount.html'))
+})
+
 app.listen(4000, function (){
     console.log('visit http://localhost:4000/')
 })
