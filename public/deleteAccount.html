@@ -13,6 +13,33 @@
   <script src="plugin/jquery.min.js"></script>
   <!-- self-defined -->
   <link href="index.css" rel="stylesheet">
+  <script src="account.js"></script>
+
+  <style>
+    .account-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .account-container input,
+    .account-container button {
+      width: 200px;
+      margin-top: 10px;
+    }
+    #success-message{
+      margin: 25px;
+      display: none;
+    }
+    .btn-container{
+      display: flex;
+      justify-content: center;
+    }
+    .btn-container button{
+      margin: 20px;
+      width: 100px;
+    }
+  </style>
 
 </head>
 <body>
@@ -20,7 +47,32 @@
 <section id="cover" class="bkg" style="height: 100vh">
   <div class="title-wrap container">
     <img class="title-img" src="image/logo-trans.png">
-    <h1 class="title">Account Deleted !</h1>
+    <div class="account-container">
+      <h2 style="margin: 10px">Delete account</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="submit" class="btn-title">Delete</button>
+    </div>
+    <h2 id="success-message">Account deleted successfully!</h2>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Delete Account?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to delete account?
+          <div class="btn-container">
+            <button id="delete-yes" type="button" class="btn btn-success" style="background: green" data-bs-dismiss="modal">Yes</button>
+            <button id="delete-no" type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+          </div>
+          </div>
+      </div>
+    </div>
   </div>
 </section>
 
