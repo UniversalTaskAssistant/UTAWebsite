@@ -389,7 +389,44 @@ i {
   width: 33%;
 }
 
-/**/
+/* features */
+#features{
+  margin-bottom: 100px;
+}
+
+.features-page{
+  padding:100px 300px 100px;
+}
+
+.features-title{
+  margin-bottom: 20px;
+  color: var(--first);
+}
+
+.features-img{
+  max-width: 100%;
+  max-height: 800px;
+}
+
+.img-wrapper{
+  text-align: center;
+  padding: 30px;
+}
+
+.text-wrapper{
+  padding: 30px;
+}
+
+.features-lead{
+  margin: 30px 0;
+}
+
+.features-quote{
+  font-style: italic;
+  background: rgba(147,122,219, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+}
 
 /* module */
 .module-container {
