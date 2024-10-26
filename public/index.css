@@ -449,6 +449,38 @@ i {
   border-radius: 10px;
 }
 
+/* scenario*/
+.scenario-page{
+  padding: 50px 300px;
+}
+
+.scenario-title{
+  margin:0 300px;
+}
+
+.scenario-subtitle{
+  color: var(--first);
+}
+
+.scenario-img-wrapper{
+  text-align: center;
+}
+
+.scenario-img{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.scenario-video-wrapper{
+  text-align: center;
+}
+
+.scenario-video{
+  width: 70%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin: 20px;
+}
+
 /* module */
 .module-container {
   min-height: 80vh;
