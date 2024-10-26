@@ -408,6 +408,19 @@ i {
   max-height: 800px;
 }
 
+.features-tag{
+  background: #76B947;
+  color: whitesmoke;
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.features-tag-wrapper{
+  margin-top: 30px;
+}
+
 .img-wrapper{
   text-align: center;
   padding: 30px;
