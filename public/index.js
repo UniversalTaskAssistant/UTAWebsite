@@ -34,17 +34,13 @@ $(document).ready(()=>{
         }
     })
 
-    // click card to redirect
-    // $('.module-card').click(function (){
-    //     window.location.href = 'content.html'
-    // })
-
     $('.contact-btn').click(function (){
         let contact = $('#contact-detail')
         contact.text($(this).attr('data-contact-id'))
         contact.slideDown()
     })
 
+    // slide up effect
     $(window).on('scroll', function(){
         var scrollPosition = $(window).scrollTop() + $(window).height();
         $('.slide-up').each(function() {
