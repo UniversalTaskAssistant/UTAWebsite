@@ -21,7 +21,7 @@
 
 :root {
   --first: #cb6ce6;
-  --second: #e73c7e;
+  --second: #ff6a8f;
   --font: #262626;
 
   --yellow: #fee622;
@@ -84,7 +84,7 @@ i {
 }
 
 .colorful {
-  color: var(--first);
+  color: var(--second);
 }
 
 /* slide up */
@@ -266,18 +266,29 @@ i {
 .title-wrap {
   color: var(--first);
   padding: 100px;
-  text-align: center;
   height: 100%;
 }
 
+.title-card{
+  /*background: rgba(256, 163, 132, 0.2);*/
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
 .title {
-  font-size: 36px;
-  margin-top: 1em;
-  font-weight: 400;
+  font-size: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.title-name{
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .title-img {
-  width: 300px;
+  width: 560px;
 }
 
 .subtitle {
