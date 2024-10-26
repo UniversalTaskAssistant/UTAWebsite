@@ -54,7 +54,7 @@
     <div class="title-wrap">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="title-card slide-up-auto">
                         <h1 class="title">Customized <span class="colorful">AI Assistant</span></h1>
                         <h1 class="title">For</h1>
@@ -62,8 +62,19 @@
                         <a type="button" href="#questions" class="btn btn-title"></i>Learn about UTA</a>
                     </div>
                 </div>
-                <div class="col-6 text-center">
-                    <img class="title-img" src="image/logo2.png">
+                <div class="col-md-6 text-center">
+<!--                    <img class="title-img" src="image/logo2.png">-->
+<!--                    <div class="video-container">-->
+<!--                        <iframe src="https://www.youtube.com/embed/c6ZrouA8_Sc"-->
+<!--                                title="UTA Introduction"-->
+<!--                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+<!--                                allowfullscreen>-->
+<!--                        </iframe>-->
+<!--                    </div>-->
+                    <video class="module-video" controls>
+                        <source src="/video/uta-release-en-org.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
@@ -71,35 +82,9 @@
     </div>
 </section>
 
-<!--divider-->
-<svg style="margin-top: -30px; position: absolute; z-index: 10" class="editorial"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 24 150 28 "
-     preserveAspectRatio="none">
-    <defs>
-        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-    </defs>
-    <g class="parallax1">
-        <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
-    </g>
-    <g class="parallax2">
-        <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
-    </g>
-    <g class="parallax3">
-        <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
-    </g>
-    <g class="parallax4">
-        <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>
-    </g>
-</svg>
-<section id="slogan">
-    <h1 class="slogan slide-up">Bridges People and Technology</h1>
-</section>
-
 <main id="content">
     <!--divider-->
-    <svg class="editorial"
+    <svg style="margin-top: -80px; position: absolute; z-index: 10" class="editorial"
          xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          viewBox="0 24 150 28 "
@@ -121,32 +106,17 @@
         </g>
     </svg>
     <section id="module">
-        <div id="questions" class="module-container container">
+        <div id="problem" class="module-container container">
+            <!-- problem -->
+            <h2 class="module-head slide-up">There is a significant <span class="colorful">GAP</span> between</h2>
+            <img src="image/problem.png" class="problem-img slide-up">
             <div class="sub-section row slide-up">
-                <div class="col-4" style="text-align: left; padding-top: 20px">
-                    <h2 class="module-title">Technology Explosion <span class="colorful">vs.</span>  Digital Divide</h2>
-                    <p class="module-subtitle">The technology is exploding but people are feeling fallen behind.</p>
+                <div class="col-4 sub-section-card">
+                    <h2 class="module-title">Technology Explosion <br><span class="colorful">vs.</span> <br>  Digital Divide</h2>
+                    <p class="module-subtitle">The technology is exploding but people are feeling confused.</p>
                 </div>
                 <div class="col-8 module-img-wrap">
                     <img class="img-fallen module-img" src="image/pplfallen.jpg">
-                </div>
-            </div>
-
-            <div class="sub-section text-center">
-                <h2 class="module-title slide-up" style="margin-top: 35px; margin-bottom: 35px">UTA Answers 3 Mostly Asked <span class="colorful">Questions</span></h2>
-                <div class="row">
-                    <div class="col-4 hover-card-hover slide-up">
-                        <img class="question-img" src="image/q1.jpg">
-                        <p class="module-subtitle">What app should I use for my needs?</p>
-                    </div>
-                    <div class="col-4 hover-card-hover slide-up">
-                        <img class="question-img" src="image/q2.jpg">
-                        <p class="module-subtitle">How to do my task on the app?</p>
-                    </div>
-                    <div class="col-4 hover-card-hover slide-up">
-                        <img class="question-img" src="image/q3.jpg">
-                        <p class="module-subtitle">What can this app do?</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -173,7 +143,58 @@
                 <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>
             </g>
         </svg>
-        <div id="features" class="module-container container">
+        <div id="features">
+            <!-- UTA -->
+            <div class="feature-title">
+                <h1 class="title-name">Universal Task Assistant</h1>
+                <h4 class="title-lead slide-up">Customized AI Assistant for <span class="colorful">Your</span> software</h4>
+            </div>
+            <div class="feature-preview container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-card-text">
+                                <p class="feature-card-title">Software Q&A</p>
+                                <span>UTA understand your software and answer user's queries about its features and contents</span>
+                            </div>
+                            <img class="feature-card-img" src="image/qa.png">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-card-text">
+                                <p class="feature-card-title">Automatic Onboarding</p>
+                                <p>UTA onboard the user of your software through step-by-step instructions</p>
+                            </div>
+                            <img class="feature-card-img" src="image/onboarding.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-card-text">
+                                <p class="feature-card-title">Task Automation</p>
+                                <p>UTA automatically completes the user's task on your software with hands-free</p>
+                            </div>
+                            <img class="feature-card-img" src="image/taskauto.png">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-card">
+                            <div class="feature-card-text">
+                                <p class="feature-card-title">Tool Recommendations</p>
+                                <p>UTA recommends the most appropriate features and tools to the user's personalized needs</p>
+                            </div>
+                            <img class="feature-card-img" src="image/recomm.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="module-container container">
             <h1 class="module-head">Features - What Can UTA Do?</h1>
             <div class="sub-section row hover-card slide-up">
                 <div class="col-5" style="padding-top: 50px">
