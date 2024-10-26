@@ -311,7 +311,7 @@ i {
   border-radius: 0;
   background-color: var(--font);
   height: 50px;
-  width: 200px;
+  width: 250px;
   padding: 10px;
   margin-top: 2.8em;
 }
@@ -403,7 +403,11 @@ i {
 }
 
 .features-page{
-  padding:100px 300px 100px;
+  padding:70px 300px;
+}
+
+.feature-head{
+  margin: -40px 300px;
 }
 
 .features-title{
