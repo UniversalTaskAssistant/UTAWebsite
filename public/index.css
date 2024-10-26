@@ -356,7 +356,11 @@ i {
   height: 100%;
 }
 
-/* feature */
+/* intro */
+#intro{
+  margin-bottom: 100px;
+}
+
 .intro-title{
   text-align: center;
   margin: 40px;
@@ -384,6 +388,8 @@ i {
 .intro-card-img{
   width: 33%;
 }
+
+/**/
 
 /* module */
 .module-container {
