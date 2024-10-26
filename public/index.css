@@ -357,12 +357,12 @@ i {
 }
 
 /* feature */
-.feature-title{
+.intro-title{
   text-align: center;
   margin: 40px;
 }
 
-.feature-card{
+.intro-card{
   text-align: left;
   padding: 20px;
   background: rgba(147,122,219, 0.2);
@@ -373,15 +373,15 @@ i {
   margin: 20px;
 }
 
-.feature-card-title{
+.intro-card-title{
   font-size: 30px;
 }
 
-.feature-card-text{
+.intro-card-text{
   flex: 1;
 }
 
-.feature-card-img{
+.intro-card-img{
   width: 33%;
 }
 
