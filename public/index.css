@@ -295,7 +295,13 @@ i {
 }
 
 .title-img {
-  width: 560px;
+  width: 200px;
+}
+
+.title-img-wrapper{
+  width: 100%;
+  text-align: center;
+  margin: -100px 0 10px;
 }
 
 .subtitle {
